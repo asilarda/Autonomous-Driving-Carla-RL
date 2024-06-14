@@ -9,7 +9,9 @@
 ### There only exists builds for Linux and Windows. However there are issue on GitHub on how to build it on MacOS here: 
 
 https://github.com/carla-simulator/carla/issues/150  
+
 https://github.com/carla-simulator/carla/pull/5086
+
 https://github.com/carla-simulator/carla/issues/176
 
 ## Two options to install Carla:
