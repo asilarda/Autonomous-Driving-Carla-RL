@@ -2,9 +2,9 @@
 
 # Carla: https://carla.readthedocs.io/en/latest/start_introduction/
 
-**use the same versions of Carla, e.g. 9.15 of the sim and Carla Python module 9.15
+**use the same versions of Carla, e.g. 9.15 of the sim and Carla Python module 9.15**
 
-the sim should be running before starting the train.py script**
+**the sim should be running before starting the train.py script**
 
 ### There only exists builds for Linux and Windows. However there are issue on GitHub on how to build it on MacOS here: 
 
