@@ -35,7 +35,7 @@ The docs explain every step needed to make Carla run.
 
 I implemented a Self Driving Agent in a simulation environment called "Carla". For the model I used stable baselines 3 with the PPO model. The agent (self-driving car) is, depending on the situation caused by his actions, rewarded or punished via a reward counter for each episode. I took inspiration namely from @FullSimDriving, @carlasimulator8782, @sentdex on YouTube.
 
-# Terminology:
+## Terminology:
 
 ### Episode
 An episode represents a complete attempt by the car to "survive" and maximize rewards in the simulation. It starts with spawning a new car and ends when the car crashes or the episode duration limit is reached. In this context, an episode runs for 15 seconds. If the car crashes or invades a lane, the episode ends, and a new one begins, with the agent being penalized accordingly. Both crashes and lane invasions are detected using the collision sensor and lane invasion sensor of the Carla API.
