@@ -1,33 +1,34 @@
 # Autonomous-Driving-Carla-RL
 
-Carla: https://carla.readthedocs.io/en/latest/start_introduction/
+# Carla: https://carla.readthedocs.io/en/latest/start_introduction/
 
-use the same versions of Carla, e.g. 9.15 of the sim and Carla Python module 9.15
+**use the same versions of Carla, e.g. 9.15 of the sim and Carla Python module 9.15
 
-the sim should be running before starting the train.py script
+the sim should be running before starting the train.py script**
 
-There only exists builds for Linux and Windows. However there are issue on GitHub on how to build it on MacOS here: 
+### There only exists builds for Linux and Windows. However there are issue on GitHub on how to build it on MacOS here: 
 
 https://github.com/carla-simulator/carla/issues/150  
 https://github.com/carla-simulator/carla/pull/5086
 https://github.com/carla-simulator/carla/issues/176
 
-Two options to install Carla:
-1. Build from source
-2. Install package (less customization for development but fine to run this project)
+## Two options to install Carla:
+### 1. Build from source:
+https://carla.readthedocs.io/en/latest/build_carla/
+https://carla.readthedocs.io/en/latest/build_linux/
+https://carla.readthedocs.io/en/latest/build_windows/
 
+### 2. Install package (less tideous way and preferred way to run this project)
+https://carla.readthedocs.io/en/latest/start_quickstart/
 
-
-1. Step: https://carla.readthedocs.io/en/latest/start_quickstart/
-
-Either install:
-1. Debian Package (for Ubuntu 18.04, possibly 20.04)
-
-
-
+Either install from the docs:
+1. Debian Package (Ubuntu 18.04 recommended, Ubuntu 20.04 not officialy supported)
 
 2. Package installation from GitHub repo
 
+The docs explain every step needed to make Carla run.
+
+## What I did?
 
 I implemented a Self Driving Agent in a simulation environment in Carla. For the model I used stable baselines 3 with the PPO model. The agent (self-driving car) is, depending on the situation caused by his actions, rewarded or punished via a reward counter for each episode. I took inspiration namely from @FullSimDriving, @carlasimulator8782, @sentdex on YouTube.
 
