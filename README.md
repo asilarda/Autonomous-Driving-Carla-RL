@@ -6,7 +6,7 @@
 
 **the sim should be running before starting the train.py script**
 
-### There only exists builds for Linux and Windows. However there are issue on GitHub on how to build it on MacOS here: 
+### There only exists builds for Linux and Windows. However there are issues on GitHub on how to build it on MacOS here: 
 
 https://github.com/carla-simulator/carla/issues/150  
 
